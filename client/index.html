@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>Compilex</title>
+    <script type="text/javascript" src="http://localhost:8080/helper.js"></script>
+  </head>
+  <body>
+    <center>
+      <h1>Compilex Demo</h1>
+      <div id="myform" name="myform">
+        <h3>Code</h3>
+        <textarea rows="13" cols="100" id="code" name="code"></textarea>
+        <br />
+        <h3>Input</h3>
+        <textarea rows="10" cols="100" id="input" name="input"></textarea>
+        <br />
+        Language :
+        <select name="lang" id="lang">
+           
+          <option value="C">C</option>
+           
+          <option value="C++">C++</option>
+           
+          <option value="Java">Java</option>
+             
+          <option value="Python">Python</option>
+           
+          <option value="CS">C#</option>
+             
+          <option value="VB">VB</option>
+           
+        </select>
+        Compile With Input :
+        <input type="radio" name="inputRadio" id="true" value="true" />yes
+        <input type="radio" name="inputRadio" id="false" value="false" />No
+        <br />
+        <input type="button" value="submit" name="submit"  onclick="submitCode()"/>
+      </div>
+	  <h3>Output</h3>
+        <textarea rows="13" cols="100" id="output" name="codeoutput"></textarea>
+    </center>
+  </body>
+</html>
