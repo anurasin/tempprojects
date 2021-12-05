@@ -37,7 +37,7 @@ app.post('/compilecode' , function (req , res ) {
                 }
                 else
                 {
-                    res.send(data.output);
+                    res.send(data);
                 }
             });
        }
@@ -52,7 +52,7 @@ app.post('/compilecode' , function (req , res ) {
             }       
             else
             {
-                res.send(data.output);
+                res.send(data);
             }
    
             });
